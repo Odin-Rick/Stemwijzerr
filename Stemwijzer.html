@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="stemwijzer.css">
-    <title>StemWijzer Tweede Kamer 2020</title>
+    <script type="text/javascript" src="stemwijzer.js"></script>
+<title>StemWijzer Tweede Kamer 2020</title>
 </head>
 <body>
     <div class="w3-container content-wrapper">
@@ -25,24 +26,25 @@
                 <section class="w3-container stellingContainer">
                     <div class="navContainer">
                         <h4 class="subTitle">Test uw politieke voorkeur aan de hand van 30 stellingen</h4>
-                        <button onclick="next()" class="w3-button  w3-hover-cyan w3-round w3-black btn">Start</button>
+                        <button id="button1" onclick="next()" class="w3-button  w3-hover-cyan w3-round w3-black btn">start</button>
                         <a class="linkContainer">
                             <div class="w3-row rowContainer">
                                 <img class="w3-cell stellingImg" src="../pictures/icon-xsable.svg" alt="">
-                                <p class="anchorText w3-cell">Bekijk de toegankelijke versie voor mensen met een visuele beperking</p>
+                                <a href="https://tweedekamer2017.stemwijzer.nl/xsable/" target="_blank" class="anchorText w3-cell">Bekijk de toegankelijke versie voor mensen met een visuele beperking</a>
                             </div>
                         </a>
                         <a class="linkContainer">
                             <div class="w3-row rowContainer">
                                 <img class="w3-cell stellingImg" src="../pictures/icon-lock.svg" alt="">
-                                <p class="anchorText w3-cell">De StemWijzer maakt geen gebruik van cookies. Klik hier voor de volledige privacy statement</p>
+                                <a href="https://tweedekamer2017.stemwijzer.nl/privacy.html" class="anchorText w3-cell">De StemWijzer maakt geen gebruik van cookies. Klik hier voor de volledige privacy statement</a>
                             </div>
                         </a>
                     </div>
                 </section>
                 <section class="w3-container w3-border-top w3-margin-top w3-light-grey">
                     <div class="trackerContainer">
-                        <a class="trackerTitle" href=""><h4>Of blik terug met de <span class="w3-text-grey">Stemmen</span>Tracker</h4></a>
+
+                        <a href="http://Stemmentracker.nl" target="_blank" class="trackerTitle" href=""><h4>Of blik terug met de <span class="w3-text-grey">Stemmen</span>Tracker</h4></a>
                         <p class="w3-margin-top w3-small">Wat hebben de partijen in het verleden waargemaakt van hun verkiezingsbeloften? 'Track' uw stem met de Stemmentracker, een website die terugblikt op 30 Tweede Kamerstemmingen van de afgelopen regeerperiode. Met welke partij stemde u mee?</p>
                     </div>
                 </section>
@@ -54,91 +56,141 @@
                         <h5 class="wel">Deze partijen doen mee</h5>
                         <div>
                             <div class="partij">
-                                <img src="../pictures/vvd.svg" alt="">
+                            	<a href="http://vvd.nl" target="_blank">
+                                	<img src="../pictures/vvd.svg" alt="">
+                            	</a>
+							</div>
+
+                            <div class="partij">
+                            	<a href="https://www.pvda.nl/verkiezingen/verkiezingsstandpunten/" target="_blank">
+                                	<img src="../pictures/pvda.svg" alt="">
+                                </a>
                             </div>
 
                             <div class="partij">
-                                <img src="../pictures/pvda.svg" alt="">
+                            	<a href="http://pvv.nl" target="_blank">
+                                	<img src="../pictures/pvv.svg" alt="">
+                                </a>	
                             </div>
 
                             <div class="partij">
-                                <img src="../pictures/pvv.svg" alt="">
+                            	<a href="http://sp.nl" target="_blank">	
+                                	<img src="../pictures/sp.svg" alt="">
+                                </a>
                             </div>
 
                             <div class="partij">
-                                <img src="../pictures/sp.svg" alt="">
+                            	<a href="http://cda.nl" target="_blank">	
+                               		<img src="../pictures/cda.svg" alt="">
+                               	</a>
                             </div>
 
                             <div class="partij">
-                                <img src="../pictures/cda.svg" alt="">
+                            	<a href="http://d66.nl" target="_blank">	
+                                	<img src="../pictures/d66.svg" alt="">
+                                </a>
                             </div>
 
                             <div class="partij">
-                                <img src="../pictures/d66.svg" alt="">
+                            	<a href="http://christenunie.nl" target="_blank">	
+                                	<img src="../pictures/christenunie.svg" alt="">
+                                </a>
                             </div>
 
                             <div class="partij">
-                                <img src="../pictures/christenunie.svg" alt="">
+                            	<a href="http://groenlinks.nl" target="_blank">	
+                                	<img src="../pictures/groenlinks.svg" alt="">
+                                </a>
                             </div>
 
                             <div class="partij">
-                                <img src="../pictures/groenlinks.svg" alt="">
+                            	<a href="http://sgp.nl" target="_blank">	
+                                	<img src="../pictures/sgp.svg" alt="">
+                                </a>
                             </div>
 
                             <div class="partij">
-                                <img src="../pictures/sgp.svg" alt="">
+                            	<a href="http://partijvoordedieren.nl" target="_blank">	
+                                	<img src="../pictures/pvdd.svg" alt="">
+                                </a>
                             </div>
 
                             <div class="partij">
-                                <img src="../pictures/pvdd.svg" alt="">
+                            	<a href="http://50pluspartij.nl" target="_blank">	
+                                	<img src="../pictures/50plus.svg" alt="">
+                                </a>
                             </div>
 
                             <div class="partij">
-                                <img src="../pictures/50plus.svg" alt="">
+                            	<a href="http://ondernemerspartij.nl" target="_blank">	
+                                	<img class="imgFormat" src="../pictures/ondernemerspartij.png" alt="">
+                                </a>
                             </div>
 
                             <div class="partij">
-                                <img class="imgFormat" src="../pictures/ondernemerspartij.png" alt="">
+                            	<a href="http://vnl.nl" target="_blank">	
+                                	<img src="../pictures/vnl.svg" alt="">
+                                </a>
                             </div>
 
                             <div class="partij">
-                                <img src="../pictures/vnl.svg" alt="">
+                            	<a href="http://bewegingdenk.nl" target="_blank">	
+                               		<img src="../pictures/denk.svg" alt="">
+                               	</a>
                             </div>
 
                             <div class="partij">
-                                <img src="../pictures/denk.svg" alt="">
+                            	<a href="http://nieuwewegen.nu" target="_blank">	
+                                	<img class="imgFormat" src="../pictures/nieuwewegen.png" alt="">
+                           		</a>
                             </div>
 
                             <div class="partij">
-                                <img class="imgFormat" src="../pictures/nieuwewegen.png" alt="">
+                            	<a href="http://forumvoordemocratie.nl" target="_blank">	
+                                	<img class="imgFormat" src="../pictures/forumvoordemocratie.png" alt="">
+                                </a>
                             </div>
 
                             <div class="partij">
-                                <img class="imgFormat" src="../pictures/forumvoordemocratie.png" alt="">
+                            	<a href="http://deburgerbeweging.nl" target="_blank">	
+                                	<img class="imgFormat" src="../pictures/burgerbeweging (2).png" alt="">
+                                </a>
                             </div>
 
                             <div class="partij">
-                                <img class="imgFormat" src="../pictures/burgerbeweging (2).png" alt="">
+                            	<a href="http://vrijzinnigepartij.nl" target="_blank">	
+                                	<img class="imgFormat" src="../pictures/vrijzinnigepartij.png" alt="">
+                                </a>
                             </div>
 
                             <div class="partij">
-                                <img class="imgFormat" src="../pictures/vrijzinnigepartij.png" alt="">
+                            	<a href="http://piratenpartij.nl" target="_blank">	
+                                	<img src="../pictures/piratenpartij.svg" alt="">
+                                </a>
                             </div>
 
                             <div class="partij">
-                                <img src="../pictures/piratenpartij.svg" alt="">
+                            	<a href="http://artikel1.org" target="_blank">	
+                                	<img class="imgFormat" src="../pictures/artikel1.png" alt="">
+                                </a>
                             </div>
 
                             <div class="partij">
-                                <img class="imgFormat" src="../pictures/artikel1.png" alt="">
+                            	<a href="http://nietstemmers.nl" target="_blank">	
+                                	<img src="../pictures/nietstemmers.svg" alt="">
+                                </a>
                             </div>
 
                             <div class="partij">
-                                <img src="../pictures/nietstemmers.svg" alt="">
+                            	<a href="http://stemlp.nl" target="_blank">	
+                                	<img src="../pictures/libertarischepartij.svg" alt="">
+                                </a>
                             </div>
 
                             <div class="partij">
-                                <img src="../pictures/lokaalindekamer.svg" alt="">
+                            	<a href="http://lokaalindekamer.nl" target="_blank">	
+                                	<img src="../pictures/lokaalindekamer.svg" alt="">
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -146,19 +198,33 @@
                         <h5 class="niet">Deze partijen doen niet mee</h5>
                         <div>
                             <div class="partij">
-                                <img class="imgFormat" src="../pictures/geenpeil.png" alt="">
+                            	<a href="http://geenpeil.nl" target="_blank">	
+                                	<img class="imgFormat" src="../pictures/geenpeil.png" alt="">
+                                </a>
                             </div>
+
                             <div class="partij">
-                                <img class="imgFormat" src="../pictures/jezusleeft.png" alt="">
+                            	<a href="http://jezusleeft.nl" target="_blank">	
+                                	<img class="imgFormat" src="../pictures/jezusleeft.png" alt="">
+                                </a>
                             </div>
+
                             <div class="partij">
-                                <img class="imgFormat" src="../pictures/stemnl.png" alt="">
+                            	<a href="https://stemnl.nl/web/Pages/index.html" target="_blank">	
+                                	<img class="imgFormat" src="../pictures/stemnl.png" alt="">
+                                </a>
                             </div>
+
                             <div class="partij">
-                                <img class="imgFormat" src="../pictures/mensspirit.png" alt="">
+                            	<a href=https://www.parlement.com/id/vkbfknzyacrk/mens_en_spirit_basisinkomen_partij_v_r target="_blank">	
+                                	<img class="imgFormat" src="../pictures/mensspirit.png" alt="">
+                                </a>
                             </div>
+
                             <div class="partij">
-                                <img class="imgFormat" src="../pictures/vdp.png" alt="">
+                            	<a href="https://deverkiezingswijzer.nl/politieke-partij/bbb/.nl" target="_blank">	
+                                	<img class="imgFormat" src="../pictures/vdp.png" alt="">
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -254,14 +320,12 @@
                 <a href=""><img class="footerImg" src="../pictures/logo-stemwijzer-white.png" alt=""></a>
             </div>
             <div class="rightCont">
-                <a href=""><img class="footerImg" src="../pictures/logo-prodemos.svg" alt=""></a>
-                <a href=""><img src="../pictures/logo-1v-small.svg" alt=""></a>
+                <a href="https://prodemos.nl/" target="_blank"><img class="footerImg" src="../pictures/logo-prodemos.svg" alt=""></a>
+                <a href="https://eenvandaag.avrotros.nl/" target="_blank"><img src="../pictures/logo-1v-small.svg" alt=""></a>
             </div>
         </footer>
     </div>
-    <!-- <script type="text/javascript" src="http://stemwijzer.dvc-icta.nl/testdata.js"></script> -->
-    <script type="text/javascript" src="javascript/data.js"></script>
-    <script type="text/javascript" src="javascript/script.js"></script>
+    <script type="text/javascript" src="stemwijzer.js"></script>
 </body>
 </html>
 					

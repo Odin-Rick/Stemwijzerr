@@ -64,7 +64,8 @@ body {
     vertical-align: middle;
     padding-left: 20px;
     padding-right: 42%;
-  }
+    text-decoration-line: none;
+ }
   
   .btn {
     float: right;
@@ -90,13 +91,14 @@ body {
     background-color: rgb(1, 180, 220);
     padding-left: 170px;
     padding-right: 170px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   
   .eenVandaagImg {
     width: 200px;
     margin-left: 10px;
+    margin-bottom: 30px;
   }
   
   .partij {
@@ -138,12 +140,12 @@ body {
   }
   
   .rightCont {
-    float: right;
-
+  margin-left: 960px;
   }
   
   .footerImg {
     width: 160px;
+    padding-right: 17px;
 
   }
   
